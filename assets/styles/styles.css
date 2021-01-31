@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.primary_font {
+  font-family: Arial;
+}
+
+.secondary_font {
+  font-family: "Comic Neue";
+}
+
+.flexbox {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.header {
+  background-color: navy;
+  font-family: Arial;
+  padding: 10px;
+  font-size: 26px;
+}
+.header ul {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.header ul li {
+  list-style-type: none;
+}
+
+.button {
+  background-color: orange;
+  font-family: Arial;
+  border: 1px solid orange;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.main {
+  font-size: 26px;
+  height: 90vh;
+  text-align: center;
+  align-items: center;
+}
+
+#main {
+  justify-content: space-between;
+}

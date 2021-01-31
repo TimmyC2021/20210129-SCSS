@@ -1,0 +1,55 @@
+// Variables
+@import '_variables.scss';
+
+// Typography
+@import '_typography.scss';
+
+// Navbar
+@import '_nav.scss';
+
+
+.flexbox {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: $primary-color;
+    font-family: $primary-font;
+    padding: 10px;
+    font-size: $font-L;
+    ul {
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        li {
+            list-style-type: none;
+            
+        }
+    }
+}
+
+.button {
+    background-color: $secondary-color;
+    font-family: $button-font;
+    border: 1px solid $secondary-color;
+    border-radius: $radius;
+    text-decoration: none;
+    
+}
+
+.main {
+    font-size: $font-L;
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+}
+
+#main {
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.primary_font {
+  font-family: Arial;
+}
+
+.secondary_font {
+  font-family: "Comic Neue";
+}

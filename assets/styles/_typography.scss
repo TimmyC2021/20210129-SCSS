@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+$primary-font: Arial;
+$secondary-font: "Comic Neue";
+$button-font: Arial;
+
+$primary-color: navy;
+$secondary-color: orange;
+
+$font-L: 26px;
+$font-S: 12px;
+.primary_font {
+    font-family: $primary-font;
+}
+
+.secondary_font {
+    font-family: $secondary-font;
+}
